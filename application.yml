@@ -1,5 +1,5 @@
-server.port = 8888
-spring.application.name = SpringBootAdmin
+server.port = 7777
+spring.application.name = SpringBootAdminZZ
 spring.boot.admin.ui.title = SpringBootAdmin-Server
 
 

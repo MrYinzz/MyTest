@@ -1,9 +1,12 @@
-server.port = 7777
-spring.application.name = SpringBootAdminZZ
-spring.boot.admin.ui.title = SpringBootAdmin-Server
+server:
+   port : 7777
+spring:
+   application:
+      name : SpringBootAdminZZ
+spring: 
+   boot:
+      admin:
+         ui: 
+           title : SpringBootAdmin-Server
 
-
-eureka.instance.preferIpAddress = true
-eureka.client.serviceUrl.defaultZone = http://192.168.148.59:1111/eureka/
-eureka.client.register-with-eureka = true
-eureka.client.fetch-registry = true
+foo : foo version 7777
